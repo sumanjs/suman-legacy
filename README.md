@@ -560,7 +560,7 @@ Note that because Suman should be installed as a devDependency, it won't show up
 NPM badge:
 <br>
 <br>
-[![NPM](https://nodei.co/npm/suman.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/suman/)
+[![NPM](https://nodei.co/npm/suman.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/suman/) [![Greenkeeper badge](https://badges.greenkeeper.io/sumanjs/suman-legacy.svg)](https://greenkeeper.io/)
 <br>
 <br>
 
