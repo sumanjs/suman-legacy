@@ -11,8 +11,11 @@ console.log(np);
 
 const slack = require('slack');
 
-const token = process.env.SLACK_TOKEN =
-    'xoxp-108881304352-109674909365-118141079700-0f880d6a01ed1b16ffaf56fea280570e';
+const token = process.env.SLACK_TOKEN;
+
+if (!token) {
+    throw new Error('SLACK_TOKEN is required');
+}
 
 // slack.channels.list({
 //

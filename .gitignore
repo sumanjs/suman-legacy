@@ -12,3 +12,15 @@ tmp
 temp
 tmp/worktrees
 temp/worktrees
+
+# Plaintext environment and private age material must never be committed.
+.env
+*.env
+**/*.env
+env/dec/
+*.agekey
+keys.txt
+
+# The schema and SOPS ciphertext are safe to commit.
+!.env.example
+!env/enc/*.env.enc
